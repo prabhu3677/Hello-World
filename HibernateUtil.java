@@ -34,6 +34,7 @@ public class HibernateUtil {
 		Session ses=null;
 		if(factory!=null){
 			ses=factory.openSession();
+			System.out.printn("new statement is added");
 		}
 		return ses;
 	}
